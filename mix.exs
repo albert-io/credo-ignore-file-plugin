@@ -16,7 +16,8 @@ defmodule CredoIgnoreFilePlugin.MixProject do
     [
       licenses: ["MIT"],
       links: %{
-        "Credo" => "https://hex.pm/packages/credo"
+        "Credo" => "https://hex.pm/packages/credo",
+        "GitHub" => "https://github.com/albert-io/credo-ignore-file-plugin"
       }
     ]
   end
