@@ -7,6 +7,7 @@ defmodule CredoIgnoreFilePlugin.MixProject do
       description: "Credo plugin for allowing you to ignore checks based on a credo ignore file",
       version: "0.1.0",
       elixir: "~> 1.15",
+      package: package(),
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
